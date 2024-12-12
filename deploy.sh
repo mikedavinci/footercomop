@@ -8,8 +8,8 @@ else
     export host="em"
     export user="er"
     export pemfile="~/tmh.pem"
-    export proxyHost="dev4.nobleapplications.com"
-    export proxyUser="ec2-user"
+    export proxyHost="dev4.domainishere.com"
+    export proxyUser="e"
     export proxyPem="~/dev4.pem"
     cp src/main/resources/application-prod.properties src/main/resources/application.properties
   else
