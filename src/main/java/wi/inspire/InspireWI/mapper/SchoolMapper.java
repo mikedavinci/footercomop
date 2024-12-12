@@ -1,11 +1,11 @@
-package wi.inspire.InspireWI.mapper;
+package wi.roger.rogerWI.mapper;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import wi.inspire.InspireWI.DTO.School.SchoolReferenceDto;
-import wi.inspire.InspireWI.DTO.School.SchoolRequestDto;
-import wi.inspire.InspireWI.DTO.School.SchoolResponseDto;
-import wi.inspire.InspireWI.model.School;
+import wi.roger.rogerWI.DTO.School.SchoolReferenceDto;
+import wi.roger.rogerWI.DTO.School.SchoolRequestDto;
+import wi.roger.rogerWI.DTO.School.SchoolResponseDto;
+import wi.roger.rogerWI.model.School;
 
 @Component
 @RequiredArgsConstructor
@@ -24,7 +24,7 @@ public class SchoolMapper {
                 .activityRegions(school.getActivityRegions())
                 .counselorEmail(school.getCounselorEmail())
                 .dashboardLink(school.getDashboardLink())
-                .inspireEmail(school.getInspireEmail())
+                .rogerEmail(school.getrogerEmail())
                 .permissionEmail(school.getPermissionEmail())
                 .notes(school.getNotes())
                 .isM7Educator(school.getIsM7Educator())
@@ -52,7 +52,7 @@ public class SchoolMapper {
         school.setActivityRegions(request.getActivityRegions());
         school.setCounselorEmail(request.getCounselorEmail());
         school.setDashboardLink(request.getDashboardLink());
-        school.setInspireEmail(request.getInspireEmail());
+        school.setrogerEmail(request.getrogerEmail());
         school.setPermissionEmail(request.getPermissionEmail());
         school.setNotes(request.getNotes());
         school.setIsM7Educator(request.getIsM7Educator());

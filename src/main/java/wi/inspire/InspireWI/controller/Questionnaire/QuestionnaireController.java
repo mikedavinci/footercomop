@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.controller.Questionnaire;
+package wi.roger.rogerWI.controller.Questionnaire;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -9,9 +9,9 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import wi.inspire.InspireWI.DTO.Questionnaire.FormSubmissionDto;
-import wi.inspire.InspireWI.DTO.Questionnaire.QuestionnaireResponseDto;
-import wi.inspire.InspireWI.service.Questionnaire.QuestionnaireService;
+import wi.roger.rogerWI.DTO.Questionnaire.FormSubmissionDto;
+import wi.roger.rogerWI.DTO.Questionnaire.QuestionnaireResponseDto;
+import wi.roger.rogerWI.service.Questionnaire.QuestionnaireService;
 
 import javax.validation.Valid;
 import java.util.Base64;

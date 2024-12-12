@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.DTO.Career;
+package wi.roger.rogerWI.DTO.Career;
 
 import lombok.Builder;
 import lombok.Data;
@@ -10,7 +10,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
 
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 @Data
 @SuperBuilder

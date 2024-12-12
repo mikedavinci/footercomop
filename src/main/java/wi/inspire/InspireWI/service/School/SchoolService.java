@@ -6,18 +6,18 @@
 // DELETE /api/schools/{id}           - Delete school
 // GET    /api/schools/search         - Search schools by grade level/county/access type
 
-package wi.inspire.InspireWI.service.School;
+package wi.roger.rogerWI.service.School;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import wi.inspire.InspireWI.DTO.School.*;
-import wi.inspire.InspireWI.mapper.SchoolMapper;
-import wi.inspire.InspireWI.service.ResourceExceptions.*;
-import wi.inspire.InspireWI.model.School;
-import wi.inspire.InspireWI.repository.SchoolRepository;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.DTO.School.*;
+import wi.roger.rogerWI.mapper.SchoolMapper;
+import wi.roger.rogerWI.service.ResourceExceptions.*;
+import wi.roger.rogerWI.model.School;
+import wi.roger.rogerWI.repository.SchoolRepository;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 import java.util.UUID;
 

@@ -3,7 +3,7 @@
 // GET    /api/v1/search/companies  - Search companies
 // GET    /api/v1/search/users      - Search users
 
-package wi.inspire.InspireWI.controller.Search;
+package wi.roger.rogerWI.controller.Search;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -17,11 +17,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import wi.inspire.InspireWI.DTO.Activity.ActivityListDto;
-import wi.inspire.InspireWI.DTO.Company.CompanyListDto;
-import wi.inspire.InspireWI.DTO.User.UserListResponseDto;
-import wi.inspire.InspireWI.service.Search.SearchService;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.DTO.Activity.ActivityListDto;
+import wi.roger.rogerWI.DTO.Company.CompanyListDto;
+import wi.roger.rogerWI.DTO.User.UserListResponseDto;
+import wi.roger.rogerWI.service.Search.SearchService;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 import java.util.Set;
 

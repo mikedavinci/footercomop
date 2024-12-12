@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.model;
+package wi.roger.rogerWI.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

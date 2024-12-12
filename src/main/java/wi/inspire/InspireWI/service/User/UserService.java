@@ -1,18 +1,18 @@
-package wi.inspire.InspireWI.service.User;
+package wi.roger.rogerWI.service.User;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import wi.inspire.InspireWI.DTO.User.*;
-import wi.inspire.InspireWI.service.ResourceExceptions.*;
-import wi.inspire.InspireWI.mapper.UserMapper;
-import wi.inspire.InspireWI.model.School;
-import wi.inspire.InspireWI.model.User;
-import wi.inspire.InspireWI.repository.SchoolRepository;
-import wi.inspire.InspireWI.repository.UserRepository;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.DTO.User.*;
+import wi.roger.rogerWI.service.ResourceExceptions.*;
+import wi.roger.rogerWI.mapper.UserMapper;
+import wi.roger.rogerWI.model.School;
+import wi.roger.rogerWI.model.User;
+import wi.roger.rogerWI.repository.SchoolRepository;
+import wi.roger.rogerWI.repository.UserRepository;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 import java.util.UUID;
 

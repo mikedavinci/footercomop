@@ -1,10 +1,10 @@
-package wi.inspire.InspireWI.DTO.School;
+package wi.roger.rogerWI.DTO.School;
 
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.types.CommonEnums;
 
 import javax.validation.constraints.*;
 import java.util.HashSet;
@@ -35,8 +35,8 @@ public class SchoolRequestDto {
 
     private String dashboardLink;
 
-    @Email(message = "Please provide a valid Inspire email address")
-    private String inspireEmail;
+    @Email(message = "Please provide a valid roger email address")
+    private String rogerEmail;
 
     @Email(message = "Please provide a valid permission email address")
     private String permissionEmail;

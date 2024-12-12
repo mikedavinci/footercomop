@@ -1,13 +1,13 @@
-package wi.inspire.InspireWI;
+package wi.roger.rogerWI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InspireWiApplication {
+public class rogerWiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InspireWiApplication.class, args);
+		SpringApplication.run(rogerWiApplication.class, args);
 	}
 
 }

@@ -1,5 +1,5 @@
 // /DTO/User/RegionalLeadRequestDto.java
-package wi.inspire.InspireWI.DTO.User;
+package wi.roger.rogerWI.DTO.User;
 
 import lombok.Data;
 import lombok.Builder;
@@ -7,7 +7,7 @@ import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import wi.inspire.InspireWI.types.CommonEnums.County;
+import wi.roger.rogerWI.types.CommonEnums.County;
 
 import javax.validation.constraints.*;
 import java.util.HashSet;

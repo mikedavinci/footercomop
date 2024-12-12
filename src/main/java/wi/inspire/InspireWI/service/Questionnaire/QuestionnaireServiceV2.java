@@ -1,18 +1,18 @@
-package wi.inspire.InspireWI.service;
+package wi.roger.rogerWI.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import wi.inspire.InspireWI.DTO.Questionnaire.*;
-import wi.inspire.InspireWI.service.ResourceExceptions.*;
-import wi.inspire.InspireWI.model.*;
-import wi.inspire.InspireWI.repository.*;
-import wi.inspire.InspireWI.service.Questionnaire.QuestionResolver;
-import wi.inspire.InspireWI.service.Questionnaire.QuestionnaireSecurityService;
-import wi.inspire.InspireWI.service.Questionnaire.QuestionnaireValidationService;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.DTO.Questionnaire.*;
+import wi.roger.rogerWI.service.ResourceExceptions.*;
+import wi.roger.rogerWI.model.*;
+import wi.roger.rogerWI.repository.*;
+import wi.roger.rogerWI.service.Questionnaire.QuestionResolver;
+import wi.roger.rogerWI.service.Questionnaire.QuestionnaireSecurityService;
+import wi.roger.rogerWI.service.Questionnaire.QuestionnaireValidationService;
+import wi.roger.rogerWI.types.CommonEnums;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

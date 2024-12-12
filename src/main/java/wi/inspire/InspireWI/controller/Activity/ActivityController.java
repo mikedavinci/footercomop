@@ -6,20 +6,20 @@
 // DELETE /api/activities/{id}           - Delete activity
 // GET    /api/activities/search         - Search activities by access level/type/category
 
-package wi.inspire.InspireWI.controller.Activity;
+package wi.roger.rogerWI.controller.Activity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import wi.inspire.InspireWI.DTO.Activity.*;
+import wi.roger.rogerWI.DTO.Activity.*;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
-import wi.inspire.InspireWI.service.Activity.ActivityService;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.service.Activity.ActivityService;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 import javax.validation.Valid;
 import java.util.UUID;

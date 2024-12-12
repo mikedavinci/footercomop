@@ -1,11 +1,11 @@
-package wi.inspire.InspireWI.mapper;
+package wi.roger.rogerWI.mapper;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import wi.inspire.InspireWI.DTO.School.SchoolReferenceDto;
-import wi.inspire.InspireWI.DTO.User.*;
-import wi.inspire.InspireWI.model.School;
-import wi.inspire.InspireWI.model.User;
+import wi.roger.rogerWI.DTO.School.SchoolReferenceDto;
+import wi.roger.rogerWI.DTO.User.*;
+import wi.roger.rogerWI.model.School;
+import wi.roger.rogerWI.model.User;
 
 import java.util.stream.Collectors;
 

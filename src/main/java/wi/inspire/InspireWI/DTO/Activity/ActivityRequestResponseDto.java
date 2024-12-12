@@ -1,12 +1,12 @@
-package wi.inspire.InspireWI.DTO.Activity;
+package wi.roger.rogerWI.DTO.Activity;
 
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import wi.inspire.InspireWI.DTO.Company.CompanyReferenceDto;
-import wi.inspire.InspireWI.DTO.User.UserResponseDto;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.DTO.Company.CompanyReferenceDto;
+import wi.roger.rogerWI.DTO.User.UserResponseDto;
+import wi.roger.rogerWI.types.CommonEnums;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

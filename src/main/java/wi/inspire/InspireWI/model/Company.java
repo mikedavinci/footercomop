@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.model;
+package wi.roger.rogerWI.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,7 +8,7 @@ import org.hibernate.annotations.Type;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.types.CommonEnums;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;

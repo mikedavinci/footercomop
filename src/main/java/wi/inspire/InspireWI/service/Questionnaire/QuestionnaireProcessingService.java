@@ -1,17 +1,17 @@
-package wi.inspire.InspireWI.service.Questionnaire;
+package wi.roger.rogerWI.service.Questionnaire;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import wi.inspire.InspireWI.model.Activity;
-import wi.inspire.InspireWI.model.ActivityRequest;
-import wi.inspire.InspireWI.model.QuestionnaireFlow;
-import wi.inspire.InspireWI.model.User;
-import wi.inspire.InspireWI.service.Activity.ActivityService;
-import wi.inspire.InspireWI.service.Activity.ActivityRequestService;
+import wi.roger.rogerWI.model.Activity;
+import wi.roger.rogerWI.model.ActivityRequest;
+import wi.roger.rogerWI.model.QuestionnaireFlow;
+import wi.roger.rogerWI.model.User;
+import wi.roger.rogerWI.service.Activity.ActivityService;
+import wi.roger.rogerWI.service.Activity.ActivityRequestService;
 
-import wi.inspire.InspireWI.service.School.SchoolService;
-import wi.inspire.InspireWI.service.User.UserService;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.service.School.SchoolService;
+import wi.roger.rogerWI.service.User.UserService;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 import javax.transaction.Transactional;
 import java.time.LocalDate;

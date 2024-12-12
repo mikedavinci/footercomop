@@ -1,11 +1,11 @@
-package wi.inspire.InspireWI.mapper;
+package wi.roger.rogerWI.mapper;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import wi.inspire.InspireWI.DTO.Career.CareerPathwayRequestDto;
-import wi.inspire.InspireWI.DTO.Career.CareerPathwayResponseDto;
-import wi.inspire.InspireWI.DTO.Career.CareerReferenceDto;
-import wi.inspire.InspireWI.model.CareerPathway;
+import wi.roger.rogerWI.DTO.Career.CareerPathwayRequestDto;
+import wi.roger.rogerWI.DTO.Career.CareerPathwayResponseDto;
+import wi.roger.rogerWI.DTO.Career.CareerReferenceDto;
+import wi.roger.rogerWI.model.CareerPathway;
 
 import java.util.stream.Collectors;
 

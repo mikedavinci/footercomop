@@ -1,6 +1,6 @@
-package wi.inspire.InspireWI.repository;
+package wi.roger.rogerWI.repository;
 
-import wi.inspire.InspireWI.model.Example;
+import wi.roger.rogerWI.model.Example;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ExampleRepository extends JpaRepository<Example,Long> {

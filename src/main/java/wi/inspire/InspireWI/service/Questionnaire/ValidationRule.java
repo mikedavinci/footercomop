@@ -1,6 +1,6 @@
-package wi.inspire.InspireWI.service.Questionnaire;
+package wi.roger.rogerWI.service.Questionnaire;
 
-import wi.inspire.InspireWI.service.ResourceExceptions;
+import wi.roger.rogerWI.service.ResourceExceptions;
 
 public interface ValidationRule {
     void validate(Object value) throws ResourceExceptions.ValidationException;

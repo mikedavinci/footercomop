@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.model;
+package wi.roger.rogerWI.model;
 
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
@@ -6,7 +6,7 @@ import org.hibernate.annotations.Type;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.types.CommonEnums;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -61,9 +61,9 @@ public class School {
     @Column(name = "dashboard_link")
     private String dashboardLink;
 
-    @Email(message = "Please provide a valid Inspire email address")
-    @Column(name = "inspire_email")
-    private String inspireEmail;
+    @Email(message = "Please provide a valid roger email address")
+    @Column(name = "roger_email")
+    private String rogerEmail;
 
     @Email(message = "Please provide a valid permission email address")
     @Column(name = "permission_email")

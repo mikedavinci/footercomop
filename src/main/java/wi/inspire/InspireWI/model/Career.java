@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.model;
+package wi.roger.rogerWI.model;
 
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
@@ -7,7 +7,7 @@ import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 
 import javax.persistence.*;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.types.CommonEnums.*;
 import javax.validation.constraints.*;
 import java.time.LocalDateTime;
 import java.util.HashSet;

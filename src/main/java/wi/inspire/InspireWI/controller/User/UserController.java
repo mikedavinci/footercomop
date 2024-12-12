@@ -6,15 +6,15 @@
 // DELETE /api/users/{id}           - Delete user
 // GET    /api/users/search         - Search users by email/name
 
-package wi.inspire.InspireWI.controller.User;
+package wi.roger.rogerWI.controller.User;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import wi.inspire.InspireWI.DTO.User.*;
-import wi.inspire.InspireWI.service.User.UserService;
+import wi.roger.rogerWI.DTO.User.*;
+import wi.roger.rogerWI.service.User.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;

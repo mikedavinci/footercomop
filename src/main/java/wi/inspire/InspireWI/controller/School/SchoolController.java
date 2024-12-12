@@ -7,22 +7,22 @@
 // GET    /api/schools/search         - Search schools by grade level/county/access type
 
 
-package wi.inspire.InspireWI.controller.School;
+package wi.roger.rogerWI.controller.School;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import wi.inspire.InspireWI.DTO.School.SchoolRequestDto;
-import wi.inspire.InspireWI.DTO.School.SchoolResponseDto;
+import wi.roger.rogerWI.DTO.School.SchoolRequestDto;
+import wi.roger.rogerWI.DTO.School.SchoolResponseDto;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
-import wi.inspire.InspireWI.service.School.SchoolService;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.service.School.SchoolService;
+import wi.roger.rogerWI.types.CommonEnums.*;
 import javax.validation.Valid;
 import java.util.UUID;
 

@@ -1,10 +1,10 @@
-package wi.inspire.InspireWI.DTO.School;
+package wi.roger.rogerWI.DTO.School;
 
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.types.CommonEnums;
 
 import java.time.LocalDateTime;
 import java.util.HashSet;
@@ -25,7 +25,7 @@ public class SchoolResponseDto {
     private Set<CommonEnums.County> activityRegions = new HashSet<>();
     private String counselorEmail;
     private String dashboardLink;
-    private String inspireEmail;
+    private String rogerEmail;
     private String permissionEmail;
     private String notes;
     private Boolean isM7Educator;

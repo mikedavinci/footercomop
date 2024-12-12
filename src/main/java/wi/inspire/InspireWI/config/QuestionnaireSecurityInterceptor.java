@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.config;
+package wi.roger.rogerWI.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.servlet.HandlerInterceptor;

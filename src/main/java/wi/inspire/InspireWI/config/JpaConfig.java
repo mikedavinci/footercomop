@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.config;
+package wi.roger.rogerWI.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;

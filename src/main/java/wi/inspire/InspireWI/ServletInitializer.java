@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI;
+package wi.roger.rogerWI;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(InspireWiApplication.class);
+		return application.sources(rogerWiApplication.class);
 	}
 
 }

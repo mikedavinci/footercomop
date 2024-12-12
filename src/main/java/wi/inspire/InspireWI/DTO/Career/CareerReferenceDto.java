@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.DTO.Career;
+package wi.roger.rogerWI.DTO.Career;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

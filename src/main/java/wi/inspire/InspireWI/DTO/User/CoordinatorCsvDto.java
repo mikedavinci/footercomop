@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.DTO;
+package wi.roger.rogerWI.DTO;
 
 import com.opencsv.bean.CsvBindByName;
 import lombok.Data;

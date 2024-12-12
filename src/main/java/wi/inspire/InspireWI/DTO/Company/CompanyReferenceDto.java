@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.DTO.Company;
+package wi.roger.rogerWI.DTO.Company;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;

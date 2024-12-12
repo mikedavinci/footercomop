@@ -1,10 +1,10 @@
-package wi.inspire.InspireWI.DTO.Activity;
+package wi.roger.rogerWI.DTO.Activity;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import wi.inspire.InspireWI.DTO.Career.CareerReferenceDto;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.DTO.Career.CareerReferenceDto;
+import wi.roger.rogerWI.types.CommonEnums;
 
 import java.time.LocalDateTime;
 import java.util.HashSet;

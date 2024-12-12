@@ -7,7 +7,7 @@
 // GET    /api/records/company/{companyId} - Get company's activity records
 
 
-package wi.inspire.InspireWI.controller.Activity;
+package wi.roger.rogerWI.controller.Activity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -15,12 +15,12 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import wi.inspire.InspireWI.DTO.Activity.*;
+import wi.roger.rogerWI.DTO.Activity.*;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
-import wi.inspire.InspireWI.service.Activity.ActivityRecordService;
+import wi.roger.rogerWI.service.Activity.ActivityRecordService;
 
 import javax.validation.Valid;
 import java.util.UUID;

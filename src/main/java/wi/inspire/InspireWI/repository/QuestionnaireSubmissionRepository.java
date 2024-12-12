@@ -1,10 +1,10 @@
-package wi.inspire.InspireWI.repository;
+package wi.roger.rogerWI.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import wi.inspire.InspireWI.model.QuestionnaireSubmission;
+import wi.roger.rogerWI.model.QuestionnaireSubmission;
 
 import java.util.List;
 import java.util.UUID;

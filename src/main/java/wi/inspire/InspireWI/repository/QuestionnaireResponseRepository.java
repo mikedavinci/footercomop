@@ -1,10 +1,10 @@
-package wi.inspire.InspireWI.repository;
+package wi.roger.rogerWI.repository;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import wi.inspire.InspireWI.model.QuestionnaireResponse;
+import wi.roger.rogerWI.model.QuestionnaireResponse;
 
 import java.util.UUID;
 

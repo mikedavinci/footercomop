@@ -1,9 +1,9 @@
-package wi.inspire.InspireWI.DTO.Questionnaire;
+package wi.roger.rogerWI.DTO.Questionnaire;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.types.CommonEnums;
 
 import java.util.List;
 import java.util.Map;

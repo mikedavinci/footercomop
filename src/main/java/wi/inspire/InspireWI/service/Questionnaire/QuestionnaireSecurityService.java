@@ -1,9 +1,9 @@
-package wi.inspire.InspireWI.service.Questionnaire;
+package wi.roger.rogerWI.service.Questionnaire;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import wi.inspire.InspireWI.DTO.Questionnaire.QuestionnaireStartDto;
-import wi.inspire.InspireWI.DTO.Questionnaire.QuestionnaireSubmissionDto;
-import wi.inspire.InspireWI.service.ResourceExceptions;
+import wi.roger.rogerWI.DTO.Questionnaire.QuestionnaireStartDto;
+import wi.roger.rogerWI.DTO.Questionnaire.QuestionnaireSubmissionDto;
+import wi.roger.rogerWI.service.ResourceExceptions;
 
 @Service
 @RequiredArgsConstructor

@@ -5,7 +5,7 @@
 // PUT    /api/v1/companies/{id}           - Update company
 // GET    /api/v1/companies/cluster/{id}   - Get companies by career cluster
 
-package wi.inspire.InspireWI.controller.Company;
+package wi.roger.rogerWI.controller.Company;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import lombok.RequiredArgsConstructor;
@@ -16,10 +16,10 @@ import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
-import wi.inspire.InspireWI.DTO.Company.CompanyRequestDto;
-import wi.inspire.InspireWI.DTO.Company.CompanyResponseDto;
-import wi.inspire.InspireWI.service.Company.CompanyService;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.DTO.Company.CompanyRequestDto;
+import wi.roger.rogerWI.DTO.Company.CompanyResponseDto;
+import wi.roger.rogerWI.service.Company.CompanyService;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 import javax.validation.Valid;
 import java.util.List;

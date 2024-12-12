@@ -1,9 +1,9 @@
-package wi.inspire.InspireWI.repository;
+package wi.roger.rogerWI.repository;
 
 import org.springframework.data.domain.*;
 import org.springframework.data.repository.query.Param;
-import wi.inspire.InspireWI.model.School;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.model.School;
+import wi.roger.rogerWI.types.CommonEnums.*;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -31,7 +31,7 @@ public interface SchoolRepository extends JpaRepository<School, UUID> {
 
     @Query("SELECT DISTINCT s.county FROM schools s WHERE s.county IS NOT NULL")
     List<County> findAllCounties();
-    Optional<School> findByInspireEmail(String inspireEmail);
+    Optional<School> findByrogerEmail(String rogerEmail);
     List<School> findByDistrictName(String districtName);
 
     @Query("SELECT DISTINCT s.districtName FROM schools s WHERE s.districtName IS NOT NULL")

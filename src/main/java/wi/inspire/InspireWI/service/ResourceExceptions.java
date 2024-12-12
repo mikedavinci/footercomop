@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.service;
+package wi.roger.rogerWI.service;
 
 public class ResourceExceptions {
 

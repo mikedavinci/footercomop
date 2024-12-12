@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.service.Questionnaire;
+package wi.roger.rogerWI.service.Questionnaire;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -7,14 +7,14 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import wi.inspire.InspireWI.DTO.Questionnaire.FormSubmissionDto;
-import wi.inspire.InspireWI.DTO.Questionnaire.QuestionnaireResponseDto;
-import wi.inspire.InspireWI.mapper.ActivityMapper;
-import wi.inspire.InspireWI.mapper.UserMapper;
-import wi.inspire.InspireWI.model.*;
-import wi.inspire.InspireWI.repository.*;
-import wi.inspire.InspireWI.service.ResourceExceptions.*;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.DTO.Questionnaire.FormSubmissionDto;
+import wi.roger.rogerWI.DTO.Questionnaire.QuestionnaireResponseDto;
+import wi.roger.rogerWI.mapper.ActivityMapper;
+import wi.roger.rogerWI.mapper.UserMapper;
+import wi.roger.rogerWI.model.*;
+import wi.roger.rogerWI.repository.*;
+import wi.roger.rogerWI.service.ResourceExceptions.*;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 import javax.transaction.Transactional;
 import java.util.Base64;

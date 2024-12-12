@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.service;
+package wi.roger.rogerWI.service;
 
 import com.opencsv.bean.CsvToBeanBuilder;
 import lombok.RequiredArgsConstructor;
@@ -7,11 +7,11 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import wi.inspire.InspireWI.DTO.CoordinatorCsvDto;
-import wi.inspire.InspireWI.model.User;
-import wi.inspire.InspireWI.repository.UserRepository;
-import wi.inspire.InspireWI.types.CommonEnums.County;
-import wi.inspire.InspireWI.types.CommonEnums.UserType;
+import wi.roger.rogerWI.DTO.CoordinatorCsvDto;
+import wi.roger.rogerWI.model.User;
+import wi.roger.rogerWI.repository.UserRepository;
+import wi.roger.rogerWI.types.CommonEnums.County;
+import wi.roger.rogerWI.types.CommonEnums.UserType;
 
 import java.io.InputStreamReader;
 import java.util.*;
@@ -28,7 +28,7 @@ public class DataSeederService {
     public void seedData() {
         try {
 
-            Resource resource = resourceLoader.getResource("classpath:data/InspireWICoordinators.csv");
+            Resource resource = resourceLoader.getResource("classpath:data/rogerWICoordinators.csv");
 
             if (!resource.exists()) {
                 throw new RuntimeException("CSV file not found in resources");

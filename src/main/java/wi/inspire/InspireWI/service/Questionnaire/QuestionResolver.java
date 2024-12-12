@@ -1,11 +1,11 @@
-package wi.inspire.InspireWI.service.Questionnaire;
+package wi.roger.rogerWI.service.Questionnaire;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import wi.inspire.InspireWI.DTO.Questionnaire.OptionDto;
-import wi.inspire.InspireWI.DTO.Questionnaire.QuestionDto;
-import wi.inspire.InspireWI.model.QuestionnaireFlow;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.DTO.Questionnaire.OptionDto;
+import wi.roger.rogerWI.DTO.Questionnaire.QuestionDto;
+import wi.roger.rogerWI.model.QuestionnaireFlow;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 import java.util.*;
 
@@ -178,7 +178,7 @@ public class QuestionResolver {
             return List.of(
                     QuestionDto.builder()
                             .id(UUID.fromString("activityType"))
-                            .text("How can Inspire help you today?")
+                            .text("How can roger help you today?")
                             .type(QuestionType.SINGLE_CHOICE)
                             .options(getStudentActivityOptions())
                             .required(true)
@@ -188,7 +188,7 @@ public class QuestionResolver {
             return List.of(
                     QuestionDto.builder()
                             .id(UUID.fromString("activityType"))
-                            .text("How can Inspire help you today?")
+                            .text("How can roger help you today?")
                             .type(QuestionType.SINGLE_CHOICE)
                             .options(getEducatorActivityOptions())
                             .required(true)

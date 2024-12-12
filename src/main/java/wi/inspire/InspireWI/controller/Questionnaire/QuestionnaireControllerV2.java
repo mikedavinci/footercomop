@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.controller.Questionnaire;
+package wi.roger.rogerWI.controller.Questionnaire;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -10,9 +10,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import wi.inspire.InspireWI.DTO.Questionnaire.*;
-import wi.inspire.InspireWI.service.Questionnaire.QuestionnaireValidationService;
-import wi.inspire.InspireWI.service.QuestionnaireServiceV2;
+import wi.roger.rogerWI.DTO.Questionnaire.*;
+import wi.roger.rogerWI.service.Questionnaire.QuestionnaireValidationService;
+import wi.roger.rogerWI.service.QuestionnaireServiceV2;
 
 import javax.validation.Valid;
 import java.util.Map;

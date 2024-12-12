@@ -1,12 +1,12 @@
-package wi.inspire.InspireWI.mapper;
+package wi.roger.rogerWI.mapper;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import wi.inspire.InspireWI.DTO.Company.CompanyRequestDto;
-import wi.inspire.InspireWI.DTO.Company.CompanyResponseDto;
-import wi.inspire.InspireWI.DTO.Company.CompanyReferenceDto;
-import wi.inspire.InspireWI.DTO.Company.CompanyListDto;
-import wi.inspire.InspireWI.model.Company;
+import wi.roger.rogerWI.DTO.Company.CompanyRequestDto;
+import wi.roger.rogerWI.DTO.Company.CompanyResponseDto;
+import wi.roger.rogerWI.DTO.Company.CompanyReferenceDto;
+import wi.roger.rogerWI.DTO.Company.CompanyListDto;
+import wi.roger.rogerWI.model.Company;
 
 import java.util.HashSet;
 

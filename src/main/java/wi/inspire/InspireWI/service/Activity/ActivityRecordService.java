@@ -1,21 +1,21 @@
-package wi.inspire.InspireWI.service.Activity;
+package wi.roger.rogerWI.service.Activity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import wi.inspire.InspireWI.DTO.Activity.*;
-import wi.inspire.InspireWI.mapper.ActivityMapper;
-import wi.inspire.InspireWI.model.Activity;
-import wi.inspire.InspireWI.model.Company;
-import wi.inspire.InspireWI.model.User;
-import wi.inspire.InspireWI.repository.ActivityRepository;
-import wi.inspire.InspireWI.repository.CompanyRepository;
-import wi.inspire.InspireWI.repository.UserRepository;
-import wi.inspire.InspireWI.service.ResourceExceptions.*;
+import wi.roger.rogerWI.DTO.Activity.*;
+import wi.roger.rogerWI.mapper.ActivityMapper;
+import wi.roger.rogerWI.model.Activity;
+import wi.roger.rogerWI.model.Company;
+import wi.roger.rogerWI.model.User;
+import wi.roger.rogerWI.repository.ActivityRepository;
+import wi.roger.rogerWI.repository.CompanyRepository;
+import wi.roger.rogerWI.repository.UserRepository;
+import wi.roger.rogerWI.service.ResourceExceptions.*;
 
-import wi.inspire.InspireWI.model.*;
-import wi.inspire.InspireWI.repository.*;
+import wi.roger.rogerWI.model.*;
+import wi.roger.rogerWI.repository.*;
 
 import java.util.Set;
 import java.util.UUID;

@@ -1,12 +1,12 @@
 // /model/User.java
-package wi.inspire.InspireWI.model;
+package wi.roger.rogerWI.model;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import lombok.*;
 import org.hibernate.annotations.Type;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 import javax.persistence.*;
 import java.time.LocalDate;

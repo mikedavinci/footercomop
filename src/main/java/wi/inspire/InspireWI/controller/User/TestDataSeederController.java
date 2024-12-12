@@ -1,5 +1,5 @@
 // /api/v1/test/seed
-package wi.inspire.InspireWI.controller.User;
+package wi.roger.rogerWI.controller.User;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import wi.inspire.InspireWI.service.DataSeederService;
+import wi.roger.rogerWI.service.DataSeederService;
 
 @Slf4j
 @RestController

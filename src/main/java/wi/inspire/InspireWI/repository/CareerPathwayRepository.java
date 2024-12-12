@@ -1,7 +1,7 @@
-package wi.inspire.InspireWI.repository;
+package wi.roger.rogerWI.repository;
 
-import wi.inspire.InspireWI.model.CareerPathway;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.model.CareerPathway;
+import wi.roger.rogerWI.types.CommonEnums.*;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;

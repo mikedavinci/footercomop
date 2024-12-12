@@ -1,11 +1,11 @@
-package wi.inspire.InspireWI.DTO.Questionnaire;
+package wi.roger.rogerWI.DTO.Questionnaire;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import wi.inspire.InspireWI.DTO.Activity.ActivityRecordResponseDto;
-import wi.inspire.InspireWI.DTO.Activity.ActivityRequestResponseDto;
-import wi.inspire.InspireWI.DTO.User.UserResponseDto;
+import wi.roger.rogerWI.DTO.Activity.ActivityRecordResponseDto;
+import wi.roger.rogerWI.DTO.Activity.ActivityRequestResponseDto;
+import wi.roger.rogerWI.DTO.User.UserResponseDto;
 
 import java.time.LocalDateTime;
 import java.util.Map;

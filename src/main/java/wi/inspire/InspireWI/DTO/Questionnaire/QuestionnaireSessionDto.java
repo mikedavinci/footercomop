@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.DTO.Questionnaire;
+package wi.roger.rogerWI.DTO.Questionnaire;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

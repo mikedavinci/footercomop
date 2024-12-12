@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.service.Questionnaire;
+package wi.roger.rogerWI.service.Questionnaire;
 
 import java.util.Collections;
 import java.util.List;

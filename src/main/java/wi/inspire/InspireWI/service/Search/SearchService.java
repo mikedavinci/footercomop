@@ -1,19 +1,19 @@
-package wi.inspire.InspireWI.service.Search;
+package wi.roger.rogerWI.service.Search;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import wi.inspire.InspireWI.DTO.Activity.ActivityListDto;
-import wi.inspire.InspireWI.DTO.Company.CompanyListDto;
-import wi.inspire.InspireWI.DTO.User.UserListResponseDto;
-import wi.inspire.InspireWI.mapper.ActivityMapper;
-import wi.inspire.InspireWI.mapper.CompanyMapper;
-import wi.inspire.InspireWI.mapper.UserMapper;
-import wi.inspire.InspireWI.repository.ActivityRepository;
-import wi.inspire.InspireWI.repository.CompanyRepository;
-import wi.inspire.InspireWI.repository.UserRepository;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.DTO.Activity.ActivityListDto;
+import wi.roger.rogerWI.DTO.Company.CompanyListDto;
+import wi.roger.rogerWI.DTO.User.UserListResponseDto;
+import wi.roger.rogerWI.mapper.ActivityMapper;
+import wi.roger.rogerWI.mapper.CompanyMapper;
+import wi.roger.rogerWI.mapper.UserMapper;
+import wi.roger.rogerWI.repository.ActivityRepository;
+import wi.roger.rogerWI.repository.CompanyRepository;
+import wi.roger.rogerWI.repository.UserRepository;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 import java.util.Set;
 

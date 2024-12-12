@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.types;
+package wi.roger.rogerWI.types;
 
 import lombok.Getter;
 

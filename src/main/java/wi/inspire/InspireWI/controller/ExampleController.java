@@ -1,10 +1,10 @@
-package wi.inspire.InspireWI.controller;
+package wi.roger.rogerWI.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import wi.inspire.InspireWI.model.Example;
-import wi.inspire.InspireWI.repository.ExampleRepository;
+import wi.roger.rogerWI.model.Example;
+import wi.roger.rogerWI.repository.ExampleRepository;
 
 import java.util.List;
 

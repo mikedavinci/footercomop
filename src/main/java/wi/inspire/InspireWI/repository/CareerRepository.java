@@ -1,7 +1,7 @@
-package wi.inspire.InspireWI.repository;
+package wi.roger.rogerWI.repository;
 
-import wi.inspire.InspireWI.model.Career;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.model.Career;
+import wi.roger.rogerWI.types.CommonEnums;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

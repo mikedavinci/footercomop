@@ -1,7 +1,7 @@
-package wi.inspire.InspireWI.service.Questionnaire;
+package wi.roger.rogerWI.service.Questionnaire;
 
 import org.springframework.stereotype.Component;
-import wi.inspire.InspireWI.service.ResourceExceptions;
+import wi.roger.rogerWI.service.ResourceExceptions;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,13 +1,13 @@
 // /DTO/User/CoordinatorResponseDto.java
-package wi.inspire.InspireWI.DTO.User;
+package wi.roger.rogerWI.DTO.User;
 
 import lombok.Data;
 import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import wi.inspire.InspireWI.DTO.School.SchoolReferenceDto;
-import wi.inspire.InspireWI.types.CommonEnums.County;
+import wi.roger.rogerWI.DTO.School.SchoolReferenceDto;
+import wi.roger.rogerWI.types.CommonEnums.County;
 
 import java.util.HashSet;
 import java.util.Set;

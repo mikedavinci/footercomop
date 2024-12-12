@@ -1,4 +1,4 @@
-package wi.inspire.InspireWI.config;
+package wi.roger.rogerWI.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -14,14 +14,14 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Inspire WI API")
+                        .title("roger WI API")
                         .version("1.0")
-                        .description("API documentation for Inspire Wisconsin application")
+                        .description("API documentation for roger Wisconsin application")
                         .contact(new Contact()
-                                .name("Inspire Wisconsin")
-                                .url("https://inspirewi.org"))
+                                .name("roger Wisconsin")
+                                .url("https://rogerwi.org"))
                         .license(new License()
                                 .name("Private")
-                                .url("https://inspirewi.org")));
+                                .url("https://rogerwi.org")));
     }
 }

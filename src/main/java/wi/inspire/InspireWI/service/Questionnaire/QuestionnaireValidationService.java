@@ -1,11 +1,11 @@
-package wi.inspire.InspireWI.service.Questionnaire;
+package wi.roger.rogerWI.service.Questionnaire;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import wi.inspire.InspireWI.DTO.Questionnaire.ValidationResultDto;
-import wi.inspire.InspireWI.model.*;
-import wi.inspire.InspireWI.repository.QuestionnaireFlowRepository;
-import wi.inspire.InspireWI.service.ResourceExceptions;
+import wi.roger.rogerWI.DTO.Questionnaire.ValidationResultDto;
+import wi.roger.rogerWI.model.*;
+import wi.roger.rogerWI.repository.QuestionnaireFlowRepository;
+import wi.roger.rogerWI.service.ResourceExceptions;
 
 import java.util.*;
 

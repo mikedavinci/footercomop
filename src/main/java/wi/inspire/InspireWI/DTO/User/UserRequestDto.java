@@ -1,10 +1,10 @@
 // /DTO/User/UserRequestDto.java
-package wi.inspire.InspireWI.DTO.User;
+package wi.roger.rogerWI.DTO.User;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.types.CommonEnums;
 
 import javax.validation.constraints.*;
 import java.util.UUID;

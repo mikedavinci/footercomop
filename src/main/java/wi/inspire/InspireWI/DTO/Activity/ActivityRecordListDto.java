@@ -1,9 +1,9 @@
-package wi.inspire.InspireWI.DTO.Activity;
+package wi.roger.rogerWI.DTO.Activity;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import wi.inspire.InspireWI.DTO.Company.CompanyReferenceDto;
+import wi.roger.rogerWI.DTO.Company.CompanyReferenceDto;
 
 import java.time.LocalDate;
 import java.util.HashSet;

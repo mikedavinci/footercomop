@@ -6,7 +6,7 @@
 // DELETE /api/career-pathways/{id} - Delete career pathway
 // GET    /api/career-pathways/cluster/{cluster} - Get pathways by cluster
 
-package wi.inspire.InspireWI.controller.CareerPathway;
+package wi.roger.rogerWI.controller.CareerPathway;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import lombok.RequiredArgsConstructor;
@@ -17,10 +17,10 @@ import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
-import wi.inspire.InspireWI.DTO.Career.CareerPathwayRequestDto;
-import wi.inspire.InspireWI.DTO.Career.CareerPathwayResponseDto;
-import wi.inspire.InspireWI.service.CareerPathway.CareerPathwayService;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.DTO.Career.CareerPathwayRequestDto;
+import wi.roger.rogerWI.DTO.Career.CareerPathwayResponseDto;
+import wi.roger.rogerWI.service.CareerPathway.CareerPathwayService;
+import wi.roger.rogerWI.types.CommonEnums.*;
 
 import javax.validation.Valid;
 import java.util.List;

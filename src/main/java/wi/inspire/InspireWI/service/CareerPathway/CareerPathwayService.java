@@ -1,17 +1,17 @@
-package wi.inspire.InspireWI.service.CareerPathway;
+package wi.roger.rogerWI.service.CareerPathway;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import wi.inspire.InspireWI.DTO.Career.CareerPathwayRequestDto;
-import wi.inspire.InspireWI.DTO.Career.CareerPathwayResponseDto;
-import wi.inspire.InspireWI.mapper.CareerPathwayMapper;
-import wi.inspire.InspireWI.service.ResourceExceptions.*;
+import wi.roger.rogerWI.DTO.Career.CareerPathwayRequestDto;
+import wi.roger.rogerWI.DTO.Career.CareerPathwayResponseDto;
+import wi.roger.rogerWI.mapper.CareerPathwayMapper;
+import wi.roger.rogerWI.service.ResourceExceptions.*;
 
-import wi.inspire.InspireWI.model.*;
-import wi.inspire.InspireWI.repository.*;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.model.*;
+import wi.roger.rogerWI.repository.*;
+import wi.roger.rogerWI.types.CommonEnums;
 
 import java.util.List;
 import java.util.Set;

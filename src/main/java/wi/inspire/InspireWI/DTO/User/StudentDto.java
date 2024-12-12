@@ -1,10 +1,10 @@
 // /DTO/User/StudentDto.java
-package wi.inspire.InspireWI.DTO.User;
+package wi.roger.rogerWI.DTO.User;
 
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import wi.inspire.InspireWI.types.CommonEnums;
+import wi.roger.rogerWI.types.CommonEnums;
 import java.time.LocalDate;
 
 @SuperBuilder

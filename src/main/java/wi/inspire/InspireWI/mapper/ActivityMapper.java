@@ -1,12 +1,12 @@
-package wi.inspire.InspireWI.mapper;
+package wi.roger.rogerWI.mapper;
 
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.stereotype.Component;
-import wi.inspire.InspireWI.DTO.Activity.*;
-import wi.inspire.InspireWI.model.Activity;
-import wi.inspire.InspireWI.model.ActivityRecord;
-import wi.inspire.InspireWI.model.ActivityRequest;
+import wi.roger.rogerWI.DTO.Activity.*;
+import wi.roger.rogerWI.model.Activity;
+import wi.roger.rogerWI.model.ActivityRecord;
+import wi.roger.rogerWI.model.ActivityRequest;
 
 import java.util.HashSet;
 import java.util.stream.Collectors;

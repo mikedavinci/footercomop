@@ -1,9 +1,9 @@
-package wi.inspire.InspireWI.repository;
+package wi.roger.rogerWI.repository;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import wi.inspire.InspireWI.model.User;
-import wi.inspire.InspireWI.types.CommonEnums.*;
+import wi.roger.rogerWI.model.User;
+import wi.roger.rogerWI.types.CommonEnums.*;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
