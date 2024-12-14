@@ -2,13 +2,11 @@
 package wi.roger.rogerWI.DTO.User;
 
 import lombok.Data;
-import lombok.Builder;
 
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import wi.roger.rogerWI.DTO.School.SchoolReferenceDto;
 import wi.roger.rogerWI.types.CommonEnums;
-import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
 
@@ -21,8 +19,7 @@ public class UserListResponseDto {
     private String email;
     private CommonEnums.UserType userType;
     private SchoolReferenceDto school;
-    @Builder.Default
-    private Set<CommonEnums.County> servingCounties = new HashSet<>();
+    private Set<CommonEnums.County> servingCounties;
     private String deployment;
     private String title;
     private CommonEnums.EducatorRole educatorRole;

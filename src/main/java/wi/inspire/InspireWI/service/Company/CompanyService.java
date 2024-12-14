@@ -2,13 +2,15 @@ package wi.roger.rogerWI.service.Company;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Page;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import wi.roger.rogerWI.DTO.Company.CompanyRequestDto;
 import wi.roger.rogerWI.DTO.Company.CompanyResponseDto;
 import wi.roger.rogerWI.mapper.CompanyMapper;
+import wi.roger.rogerWI.model.User;
 import wi.roger.rogerWI.service.ResourceExceptions.*;
-import wi.roger.rogerWI.model.*;
+import wi.roger.rogerWI.model.Company;
 import wi.roger.rogerWI.repository.*;
 import wi.roger.rogerWI.types.CommonEnums;
 
@@ -71,4 +73,36 @@ public class CompanyService {
                 .map(CompanyMapper::toResponse)
                 .collect(Collectors.toList());
     }
+
+    @Transactional(readOnly = true)
+    public boolean isUserCompanyAdmin(UUID companyId, User user) {
+        if (user == null || companyId == null) {
+            return false;
+        }
+
+        // If user is ADMIN, they have access to all companies
+        if (user.getUserType() == CommonEnums.UserType.ADMIN) {
+            return true;
+        }
+
+        // For COMPANY_ADMIN, check if they're associated with this company
+        if (user.getUserType() == CommonEnums.UserType.COMPANY_ADMIN) {
+            return companyRepository.existsByIdAndCompanyAdminId(companyId, user.getId());
+        }
+
+        return false;
+    }
+
+    @Transactional(readOnly = true)
+    public CompanyResponseDto getCompanyByAdmin(User user) {
+        if (user.getUserType() != CommonEnums.UserType.COMPANY_ADMIN) {
+            throw new AccessDeniedException("User is not a company admin");
+        }
+
+        Company company = companyRepository.findByCompanyAdminId(user.getId())
+                .orElseThrow(() -> new ResourceNotFoundException("No company found for this admin"));
+
+        return CompanyMapper.toResponse(company);
+    }
+
 }

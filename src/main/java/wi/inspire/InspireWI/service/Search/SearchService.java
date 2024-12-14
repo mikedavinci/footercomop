@@ -23,6 +23,7 @@ public class SearchService {
     private final ActivityRepository activityRepository;
     private final CompanyRepository companyRepository;
     private final UserRepository userRepository;
+    private final UserMapper userMapper;
 
     public Page<ActivityListDto> searchActivities(
             String query,
@@ -67,6 +68,6 @@ public class SearchService {
                         name,
                         userTypes,
                         pageable)
-                .map(UserMapper::toListResponse);
+                .map(userMapper::toListResponse);
     }
 }

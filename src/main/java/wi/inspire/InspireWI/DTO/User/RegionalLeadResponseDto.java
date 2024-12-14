@@ -19,6 +19,5 @@ import java.util.Set;
 public class RegionalLeadResponseDto extends UserResponseDto {
     private String deployment;
     private String title;
-    @Builder.Default
-    private Set<County> servingCounties = new HashSet<>();
+    private Set<County> servingCounties;
 }

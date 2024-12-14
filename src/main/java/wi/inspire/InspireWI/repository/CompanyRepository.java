@@ -19,6 +19,15 @@ import java.util.UUID;
 public interface CompanyRepository extends JpaRepository<Company, UUID> {
     boolean existsByNameIgnoreCase(String name);
 
+    @Query("SELECT CASE WHEN COUNT(c) > 0 THEN TRUE ELSE FALSE END " +
+            "FROM companies c " +
+            "WHERE c.id = :companyId " +
+            "AND c.companyAdmin.id = :userId")
+    boolean existsByIdAndCompanyAdminId(@Param("companyId") UUID companyId, @Param("userId") UUID userId);
+
+
+    Optional<Company> findByCompanyAdminId(UUID userId);
+
     @Query("SELECT c FROM companies c WHERE :cluster MEMBER OF c.clusters")
     Page<Company> findByCareerCluster(@Param("cluster") CommonEnums.Cluster cluster, Pageable pageable);
 

@@ -6,21 +6,22 @@ import lombok.*;
 import org.hibernate.annotations.Type;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 import wi.roger.rogerWI.types.CommonEnums.*;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.UUID;
+import java.util.*;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @EntityListeners(AuditingEntityListener.class)
 @Entity(name = "users")
-public class User {
+public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Type(type="org.hibernate.type.UUIDCharType")
@@ -29,6 +30,9 @@ public class User {
 
     @Column(length = 100, nullable = false)
     private String name;
+
+    @Column(nullable = false)
+    private String password;
 
     @Column(unique = true, length = 100, nullable = false)
     private String email;
@@ -99,6 +103,36 @@ public class User {
 
     @Column(name = "custom_role", length = 100)
     private String customRole;
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return Collections.singletonList(new SimpleGrantedAuthority("ROLE_" + userType.name()));
+    }
+
+    @Override
+    public String getUsername() {
+        return email; // Using email as username
+    }
+
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return true;
+    }
 
     @CreatedDate
     @Column(name = "created_date", nullable = false)

@@ -30,13 +30,13 @@ public class School {
     @Column(nullable = false)
     private String name;
 
-    @Column(name = "grade_level", nullable = false)
+    @Column(name = "grade_level")
     @Enumerated(EnumType.STRING)
     private CommonEnums.GradeLevel gradeLevel;
 
-    @Column(name = "access_type", nullable = false)
+    @Column(name = "access_type")
     @Enumerated(EnumType.STRING)
-    private CommonEnums.AccessTo accessTo;
+    private CommonEnums.AccessTo accessTo = CommonEnums.AccessTo.FULL_SERVICE;
 
     @Column(name = "district_name")
     private String districtName;

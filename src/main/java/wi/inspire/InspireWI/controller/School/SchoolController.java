@@ -9,10 +9,12 @@
 
 package wi.roger.rogerWI.controller.School;
 
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import wi.roger.rogerWI.DTO.School.SchoolRequestDto;
 import wi.roger.rogerWI.DTO.School.SchoolResponseDto;
@@ -35,6 +37,7 @@ public class SchoolController {
     private final SchoolService schoolService;
 
     // GET    /api/schools - Get all schools (paginated)
+    // Anyone can view schools
     @Operation(summary = "Get all schools",
             description = "Returns a paginated list of all schools")
     @ApiResponses(value = {
@@ -42,6 +45,7 @@ public class SchoolController {
             @ApiResponse(responseCode = "403", description = "Forbidden"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
+    @PreAuthorize("permitAll()")
     @GetMapping
     public ResponseEntity<Page<SchoolResponseDto>> getAllSchools(
             @Parameter(description = "Pagination information") Pageable pageable) {
@@ -49,6 +53,7 @@ public class SchoolController {
     }
 
     // GET    /api/schools/{id} - Get school by ID
+    // Anyone can view a specific school
     @Operation(summary = "Get school by ID",
             description = "Returns a single school by its ID")
     @ApiResponses(value = {
@@ -57,6 +62,7 @@ public class SchoolController {
             @ApiResponse(responseCode = "403", description = "Forbidden"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
+    @PreAuthorize("permitAll()")
     @GetMapping("/{id}")
     public ResponseEntity<SchoolResponseDto> getSchoolById(
             @Parameter(description = "ID of the school to retrieve") @PathVariable UUID id) {
@@ -64,6 +70,7 @@ public class SchoolController {
     }
 
     // POST   /api/schools - Create new school
+    // Only ADMIN and COORDINATOR can create schools
     @Operation(summary = "Create new school",
             description = "Creates a new school with the provided information")
     @ApiResponses(value = {
@@ -72,6 +79,8 @@ public class SchoolController {
             @ApiResponse(responseCode = "403", description = "Forbidden"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
+    @SecurityRequirement(name = "bearerAuth")
+    @PreAuthorize("hasAnyRole('ADMIN', 'COORDINATOR')")
     @PostMapping
     public ResponseEntity<SchoolResponseDto> createSchool(
             @Parameter(description = "School details") @Valid @RequestBody SchoolRequestDto requestDto) {
@@ -79,6 +88,7 @@ public class SchoolController {
     }
 
     // PUT    /api/schools/{id} - Update existing school
+    // ADMIN, COORDINATOR can update schools
     @Operation(summary = "Update existing school",
             description = "Updates an existing school with the provided information")
     @ApiResponses(value = {
@@ -88,6 +98,8 @@ public class SchoolController {
             @ApiResponse(responseCode = "403", description = "Forbidden"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
+    @SecurityRequirement(name = "bearerAuth")
+    @PreAuthorize("hasAnyRole('ADMIN', 'COORDINATOR')")
     @PutMapping("/{id}")
     public ResponseEntity<SchoolResponseDto> updateSchool(
             @Parameter(description = "ID of the school to update") @PathVariable UUID id,
@@ -96,6 +108,7 @@ public class SchoolController {
     }
 
     // DELETE /api/schools/{id}- Delete school
+    // Only ADMIN can delete schools
     @Operation(summary = "Delete school",
             description = "Deletes an existing school by its ID")
     @ApiResponses(value = {
@@ -104,6 +117,8 @@ public class SchoolController {
             @ApiResponse(responseCode = "403", description = "Forbidden"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
+    @SecurityRequirement(name = "bearerAuth")
+    @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteSchool(
             @Parameter(description = "ID of the school to delete") @PathVariable UUID id) {
@@ -112,6 +127,7 @@ public class SchoolController {
     }
 
     // GET    /api/schools/search - Search schools by grade level/county/access type
+    // Anyone can search schools
     @Operation(summary = "Search schools",
             description = "Search schools by grade level, county, and access type")
     @ApiResponses(value = {
@@ -119,6 +135,7 @@ public class SchoolController {
             @ApiResponse(responseCode = "403", description = "Forbidden"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
+    @PreAuthorize("permitAll()")
     @GetMapping("/search")
     public ResponseEntity<Page<SchoolResponseDto>> searchSchools(
             @Parameter(description = "Grade level to filter by")

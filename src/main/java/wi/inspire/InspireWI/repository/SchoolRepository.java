@@ -13,6 +13,10 @@ import java.util.UUID;
 
 @Repository
 public interface SchoolRepository extends JpaRepository<School, UUID> {
+
+    Optional<School> findByName(String name);
+
+
     @Query("SELECT s FROM schools s WHERE " +
             "(:gradeLevel is null OR s.gradeLevel = :gradeLevel) AND " +
             "(:county is null OR s.county = :county) AND " +

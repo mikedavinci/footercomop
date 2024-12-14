@@ -48,6 +48,7 @@ public class Company {
     @CollectionTable(
             name = "company_career_clusters",
             joinColumns = @JoinColumn(name = "company_id")
+
     )
     @Column(name = "cluster")
     @Enumerated(EnumType.STRING)
@@ -88,6 +89,10 @@ public class Company {
 
     @ManyToMany(mappedBy = "participatingCompanies", fetch = FetchType.LAZY)
     private Set<ActivityRecord> activityRecords = new HashSet<>();
+
+    @ManyToOne
+    @JoinColumn(name = "company_admin_id", referencedColumnName = "userId")
+    private User companyAdmin;
 
     @CreatedDate
     @Column(name = "created_date", updatable = false)

@@ -4,6 +4,7 @@ package wi.roger.rogerWI.controller.User;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +17,7 @@ import wi.roger.rogerWI.service.DataSeederService;
 public class TestDataSeederController {
     private final DataSeederService dataSeederService;
 
+    @PreAuthorize("permitAll()")
     @PostMapping("/seed")
     public ResponseEntity<String> testSeed() {
         try {

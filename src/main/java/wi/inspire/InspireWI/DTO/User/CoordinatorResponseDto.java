@@ -17,8 +17,6 @@ import java.util.Set;
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 public class CoordinatorResponseDto extends UserResponseDto {
-    @Builder.Default
-    private Set<County> servingCounties = new HashSet<>();
-    @Builder.Default
-    private Set<SchoolReferenceDto> assignedSchools = new HashSet<>();
+    private Set<County> servingCounties;
+    private Set<SchoolReferenceDto> assignedSchools;
 }
