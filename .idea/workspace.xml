@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9e9b505-cb50-4a1a-b9db-3da6a5780749" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityCreateDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityCreateDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityRecordDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityRecordDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityRecordListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityRecordListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityRecordResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityRecordResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityReferenceDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityReferenceDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityRequestResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityRequestResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Activity/ActivityResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Auth/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Auth/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Auth/AuthUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Auth/AuthUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Auth/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Auth/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Auth/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Auth/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Auth/RegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Auth/RegistrationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Career/CareerPathwayRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Career/CareerPathwayRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Career/CareerPathwayResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Career/CareerPathwayResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Career/CareerReferenceDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Career/CareerReferenceDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Company/CompanyListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Company/CompanyListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Company/CompanyReferenceDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Company/CompanyReferenceDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Company/CompanyRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Company/CompanyRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Company/CompanyResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Company/CompanyResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/FormSubmissionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/FormSubmissionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/OptionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/OptionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionnaireErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionnaireErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionnaireResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionnaireResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionnaireSessionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionnaireSessionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionnaireStartDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionnaireStartDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionnaireSubmissionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/QuestionnaireSubmissionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/ValidationErrorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/ValidationErrorDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/ValidationResultDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Questionnaire/ValidationResultDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/School/SchoolReferenceDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/School/SchoolReferenceDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/School/SchoolRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/School/SchoolRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/School/SchoolResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/School/SchoolResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Search/SearchCriteriaDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/Search/SearchCriteriaDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/Auth/AuthResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/Auth/AuthResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/Auth/AuthUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/Auth/AuthUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/Auth/PasswordUpdateDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/Auth/PasswordUpdateDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/CoordinatorCsvDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/CoordinatorCsvDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/CoordinatorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/CoordinatorDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/CoordinatorRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/CoordinatorRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/CoordinatorResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/CoordinatorResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/EducatorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/EducatorDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/EducatorRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/EducatorRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/EducatorResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/EducatorResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/RegionalLeadDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/RegionalLeadDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/RegionalLeadRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/RegionalLeadRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/RegionalLeadResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/RegionalLeadResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/StudentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/StudentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/StudentRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/StudentRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/StudentResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/StudentResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/UserListResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/UserListResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/UserRegistrationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/UserRegistrationDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/UserRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/UserRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/UserResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/DTO/User/UserResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/rogerWiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/rogerWiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/SecurityConfiguration/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/SecurityConfiguration/CurrentUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/SecurityConfiguration/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/SecurityConfiguration/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/SecurityConfiguration/JwtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/SecurityConfiguration/JwtConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/SecurityConfiguration/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/SecurityConfiguration/JwtTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/SecurityConfiguration/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/SecurityConfiguration/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/config/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/config/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/config/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/config/QuestionnaireSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/config/QuestionnaireSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/config/QuestionnaireSecurityInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/config/QuestionnaireSecurityInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Activity/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Activity/ActivityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Activity/ActivityRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Activity/ActivityRecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Activity/ActivityRequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Activity/ActivityRequestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/CareerPathway/CareerPathwayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/CareerPathway/CareerPathwayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Company/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Company/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/ExampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/ExampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Questionnaire/QuestionnaireController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Questionnaire/QuestionnaireController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Questionnaire/QuestionnaireControllerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Questionnaire/QuestionnaireControllerV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/School/SchoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/School/SchoolController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Search/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/Search/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/User/TestDataSeederController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/User/TestDataSeederController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/User/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/controller/User/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/mapper/ActivityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/mapper/ActivityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/mapper/CareerPathwayMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/mapper/CareerPathwayMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/mapper/CompanyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/mapper/CompanyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/mapper/SchoolMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/mapper/SchoolMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/ActivityRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/ActivityRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/ActivityRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/ActivityRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/Career.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/Career.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/CareerPathway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/CareerPathway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/QuestionnaireFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/QuestionnaireFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/QuestionnaireResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/QuestionnaireResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/QuestionnaireSubmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/QuestionnaireSubmission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/RefreshToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/RefreshToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/ActivityRecordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/ActivityRecordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/ActivityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/ActivityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/ActivityRequestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/ActivityRequestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/CareerPathwayRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/CareerPathwayRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/CareerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/CareerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/CompanyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/ExampleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/ExampleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/QuestionnaireFlowRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/QuestionnaireFlowRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/QuestionnaireResponseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/QuestionnaireResponseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/QuestionnaireSubmissionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/QuestionnaireSubmissionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/RefreshTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/SchoolRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/SchoolRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Activity/ActivityRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Activity/ActivityRecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Activity/ActivityRequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Activity/ActivityRequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Activity/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Activity/ActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Auth/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Auth/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/CareerPathway/CareerPathwayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/CareerPathway/CareerPathwayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Company/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Company/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/DataSeederService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/DataSeederService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionnaireProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionnaireProcessingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionnaireSecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionnaireSecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionnaireService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionnaireService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionnaireServiceV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionnaireServiceV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionnaireValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/QuestionnaireValidationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/ValidationRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/ValidationRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/ValidationRuleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Questionnaire/ValidationRuleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/ResourceExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/ResourceExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/School/SchoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/School/SchoolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Search/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/Search/SearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/User/JwtUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/User/JwtUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/User/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/service/User/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/types/CommonEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wi/roger/rogerWI/types/CommonEnums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/rogerWICoordinators.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/rogerWICoordinators.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/rogerWIRegionalLeads.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/rogerWIRegionalLeads.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/rogerWISchools.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/rogerWISchools.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2qMLSA22CFA4CcaIHUUturMqJPI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/miguelesparzajr/Documents/GitHub/footercomop",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9e9b505-cb50-4a1a-b9db-3da6a5780749" name="Changes" comment="" />
+      <created>1734467494629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734467494629</updated>
+      <workItem from="1734467495720" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

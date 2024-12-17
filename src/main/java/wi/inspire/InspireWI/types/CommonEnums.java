@@ -8,7 +8,7 @@ public class CommonEnums {
         TEACHER,
         COUNSELOR,
         ADMINISTRATOR,
-        SUPPORT_STAFF,
+        PARENT,
         OTHER
     }
 
